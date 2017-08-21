@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69443CB2308A15C97F817434 /* Pods_BachelorProefAppSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9442C87125E7F61CEB962410 /* Pods_BachelorProefAppSwift.framework */; };
 		8C6003781F4AC96500DE97EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6003771F4AC96500DE97EF /* AppDelegate.swift */; };
 		8C60037A1F4AC96500DE97EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6003791F4AC96500DE97EF /* ViewController.swift */; };
 		8C60037D1F4AC96500DE97EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C60037B1F4AC96500DE97EF /* Main.storyboard */; };
 		8C60037F1F4AC96500DE97EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C60037E1F4AC96500DE97EF /* Assets.xcassets */; };
+		8C6003871F4AD20F00DE97EF /* JsonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6003861F4AD20F00DE97EF /* JsonViewController.swift */; };
+		8C6003891F4AD24B00DE97EF /* MenuBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6003881F4AD24B00DE97EF /* MenuBarViewController.swift */; };
+		8C60038E1F4AE01400DE97EF /* placeholder.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C60038D1F4AE01400DE97EF /* placeholder.json */; };
+		8C6003901F4AE03700DE97EF /* Albums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C60038F1F4AE03700DE97EF /* Albums.swift */; };
+		8C6003921F4AE74B00DE97EF /* JsonToAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6003911F4AE74B00DE97EF /* JsonToAlbum.swift */; };
+		8C6003941F4B0D4400DE97EF /* Albums.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C6003931F4B0D4400DE97EF /* Albums.json */; };
+		8C6003961F4B0F8800DE97EF /* JsonHeaderViewCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6003951F4B0F8800DE97EF /* JsonHeaderViewCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25076309D08A5A53B096BA2D /* Pods-BachelorProefAppSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BachelorProefAppSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-BachelorProefAppSwift/Pods-BachelorProefAppSwift.release.xcconfig"; sourceTree = "<group>"; };
 		8C6003741F4AC96500DE97EF /* BachelorProefAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BachelorProefAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6003771F4AC96500DE97EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C6003791F4AC96500DE97EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C60037C1F4AC96500DE97EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C60037E1F4AC96500DE97EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C6003801F4AC96500DE97EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6003861F4AD20F00DE97EF /* JsonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonViewController.swift; sourceTree = "<group>"; };
+		8C6003881F4AD24B00DE97EF /* MenuBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuBarViewController.swift; path = ../MenuBarViewController.swift; sourceTree = "<group>"; };
+		8C60038D1F4AE01400DE97EF /* placeholder.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = placeholder.json; sourceTree = "<group>"; };
+		8C60038F1F4AE03700DE97EF /* Albums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Albums.swift; sourceTree = "<group>"; };
+		8C6003911F4AE74B00DE97EF /* JsonToAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonToAlbum.swift; sourceTree = "<group>"; };
+		8C6003931F4B0D4400DE97EF /* Albums.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Albums.json; sourceTree = "<group>"; };
+		8C6003951F4B0F8800DE97EF /* JsonHeaderViewCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonHeaderViewCollectionReusableView.swift; sourceTree = "<group>"; };
+		9442C87125E7F61CEB962410 /* Pods_BachelorProefAppSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BachelorProefAppSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAC29E1B3950FE72B9DA46E /* Pods-BachelorProefAppSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BachelorProefAppSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BachelorProefAppSwift/Pods-BachelorProefAppSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69443CB2308A15C97F817434 /* Pods_BachelorProefAppSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		723FBA25A3B03CC4FD022F27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DAC29E1B3950FE72B9DA46E /* Pods-BachelorProefAppSwift.debug.xcconfig */,
+				25076309D08A5A53B096BA2D /* Pods-BachelorProefAppSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8C60036B1F4AC96500DE97EF = {
 			isa = PBXGroup;
 			children = (
 				8C6003761F4AC96500DE97EF /* BachelorProefAppSwift */,
 				8C6003751F4AC96500DE97EF /* Products */,
+				723FBA25A3B03CC4FD022F27 /* Pods */,
+				96AC091366989057ADD142A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,13 +82,36 @@
 		8C6003761F4AC96500DE97EF /* BachelorProefAppSwift */ = {
 			isa = PBXGroup;
 			children = (
+				8C60038C1F4ADFE500DE97EF /* Json */,
+				8C6003881F4AD24B00DE97EF /* MenuBarViewController.swift */,
 				8C6003771F4AC96500DE97EF /* AppDelegate.swift */,
 				8C6003791F4AC96500DE97EF /* ViewController.swift */,
+				8C6003861F4AD20F00DE97EF /* JsonViewController.swift */,
 				8C60037B1F4AC96500DE97EF /* Main.storyboard */,
 				8C60037E1F4AC96500DE97EF /* Assets.xcassets */,
 				8C6003801F4AC96500DE97EF /* Info.plist */,
+				8C6003951F4B0F8800DE97EF /* JsonHeaderViewCollectionReusableView.swift */,
 			);
 			path = BachelorProefAppSwift;
+			sourceTree = "<group>";
+		};
+		8C60038C1F4ADFE500DE97EF /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				8C6003931F4B0D4400DE97EF /* Albums.json */,
+				8C60038D1F4AE01400DE97EF /* placeholder.json */,
+				8C60038F1F4AE03700DE97EF /* Albums.swift */,
+				8C6003911F4AE74B00DE97EF /* JsonToAlbum.swift */,
+			);
+			name = Json;
+			sourceTree = "<group>";
+		};
+		96AC091366989057ADD142A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9442C87125E7F61CEB962410 /* Pods_BachelorProefAppSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C6003831F4AC96500DE97EF /* Build configuration list for PBXNativeTarget "BachelorProefAppSwift" */;
 			buildPhases = (
+				BC729A02D31AF194A005D202 /* [CP] Check Pods Manifest.lock */,
 				8C6003701F4AC96500DE97EF /* Sources */,
 				8C6003711F4AC96500DE97EF /* Frameworks */,
 				8C6003721F4AC96500DE97EF /* Resources */,
+				034943C723CB49A66E2FBF13 /* [CP] Embed Pods Frameworks */,
+				3E44B40DF2B66E32FA14E818 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,20 +176,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C60038E1F4AE01400DE97EF /* placeholder.json in Resources */,
 				8C60037F1F4AC96500DE97EF /* Assets.xcassets in Resources */,
 				8C60037D1F4AC96500DE97EF /* Main.storyboard in Resources */,
+				8C6003941F4B0D4400DE97EF /* Albums.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		034943C723CB49A66E2FBF13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BachelorProefAppSwift/Pods-BachelorProefAppSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BachelorProefAppSwift/Pods-BachelorProefAppSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E44B40DF2B66E32FA14E818 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BachelorProefAppSwift/Pods-BachelorProefAppSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC729A02D31AF194A005D202 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BachelorProefAppSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8C6003701F4AC96500DE97EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C6003901F4AE03700DE97EF /* Albums.swift in Sources */,
 				8C60037A1F4AC96500DE97EF /* ViewController.swift in Sources */,
+				8C6003961F4B0F8800DE97EF /* JsonHeaderViewCollectionReusableView.swift in Sources */,
+				8C6003921F4AE74B00DE97EF /* JsonToAlbum.swift in Sources */,
 				8C6003781F4AC96500DE97EF /* AppDelegate.swift in Sources */,
+				8C6003871F4AD20F00DE97EF /* JsonViewController.swift in Sources */,
+				8C6003891F4AD24B00DE97EF /* MenuBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +365,7 @@
 		};
 		8C6003841F4AC96500DE97EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DAC29E1B3950FE72B9DA46E /* Pods-BachelorProefAppSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -259,6 +379,7 @@
 		};
 		8C6003851F4AC96500DE97EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25076309D08A5A53B096BA2D /* Pods-BachelorProefAppSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -289,6 +410,7 @@
 				8C6003851F4AC96500DE97EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
