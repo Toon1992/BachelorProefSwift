@@ -241,5 +241,130 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BachelorProefAppSwift/MenuBarController.swift"
+            timestampString = "525022353.682055"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "orderedViewControllers"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BachelorProefAppSwift.MenuBarController.orderedViewControllers.getter : Swift.Array&lt;__ObjC.UIViewController&gt;"
+                  moduleName = "BachelorProefAppSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/toondetrue/Desktop/BachelorProefAppSwift/BachelorProefAppSwift/MenuBarController.swift"
+                  timestampString = "525024201.33316"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BachelorProefAppSwift.MenuBarController.orderedViewControllers.setter : Swift.Array&lt;__ObjC.UIViewController&gt;"
+                  moduleName = "BachelorProefAppSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/toondetrue/Desktop/BachelorProefAppSwift/BachelorProefAppSwift/MenuBarController.swift"
+                  timestampString = "525024201.345712"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BachelorProefAppSwift.MenuBarController.(orderedViewControllers.getter : Swift.Array&lt;__ObjC.UIViewController&gt;).(closure #1)"
+                  moduleName = "BachelorProefAppSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/toondetrue/Desktop/BachelorProefAppSwift/BachelorProefAppSwift/MenuBarController.swift"
+                  timestampString = "525024201.359408"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BachelorProefAppSwift.MenuBarController.init (transitionStyle : __C.UIPageViewControllerTransitionStyle, navigationOrientation : __C.UIPageViewControllerNavigationOrientation, options : Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; BachelorProefAppSwift.MenuBarController"
+                  moduleName = "BachelorProefAppSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/toondetrue/Desktop/BachelorProefAppSwift/BachelorProefAppSwift/MenuBarController.swift"
+                  timestampString = "525024201.372638"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BachelorProefAppSwift.MenuBarController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;BachelorProefAppSwift.MenuBarController&gt;"
+                  moduleName = "BachelorProefAppSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/toondetrue/Desktop/BachelorProefAppSwift/BachelorProefAppSwift/MenuBarController.swift"
+                  timestampString = "525024201.385325"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BachelorProefAppSwift/MenuBarController.swift"
+            timestampString = "525022353.682055"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "pageController(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BachelorProefAppSwift/MenuBarController.swift"
+            timestampString = "525024104.782987"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "presentationIndex(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

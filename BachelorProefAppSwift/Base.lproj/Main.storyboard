@@ -50,7 +50,7 @@
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="MenuBar"/>
                                 <connections>
-                                    <segue destination="ZCD-YI-2eg" kind="show" id="WaW-bT-aLb"/>
+                                    <segue destination="ZKs-P5-9R2" kind="show" id="Ita-A6-p31"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -67,6 +67,69 @@
                 </viewController>
             </objects>
             <point key="canvasLocation" x="-1067" y="-166"/>
+        </scene>
+        <!--Menu Bar Controller-->
+        <scene sceneID="yr9-qj-SUm">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="ZKs-P5-9R2" customClass="MenuBarController" customModule="BachelorProefAppSwift" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qdm-Gf-KS2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1098" y="1046"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dm9-mh-BsB">
+            <objects>
+                <viewController storyboardIdentifier="SecondPage" id="Sg2-Tt-Tjv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qfI-iX-1eG"/>
+                        <viewControllerLayoutGuide type="bottom" id="vvS-AR-T9f"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NT8-TH-MpF">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Second Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WwA-Wn-3Au">
+                                <rect key="frame" x="914" y="517" width="226" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g9K-Xc-pTd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1722" y="2606"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CQZ-xU-DUV">
+            <objects>
+                <viewController storyboardIdentifier="FirstPage" id="a4W-PW-JbR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dmh-Kv-Mdj"/>
+                        <viewControllerLayoutGuide type="bottom" id="XUL-P4-mN6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OOq-9g-Oza">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGx-QG-gjd">
+                                <rect key="frame" x="875" y="517" width="171" height="46"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="sGx-QG-gjd" firstAttribute="centerY" secondItem="OOq-9g-Oza" secondAttribute="centerY" id="dXP-ib-SFF"/>
+                            <constraint firstItem="sGx-QG-gjd" firstAttribute="centerX" secondItem="OOq-9g-Oza" secondAttribute="centerX" id="lTe-C5-IGM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KWp-RJ-bIB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-294" y="2606"/>
         </scene>
         <!--Json View Controller-->
         <scene sceneID="O2y-7w-ebM">
@@ -144,23 +207,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r7q-kK-PcA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1207" y="-1172"/>
-        </scene>
-        <!--Menu Bar View Controller-->
-        <scene sceneID="Og4-ny-Mdc">
-            <objects>
-                <viewController id="ZCD-YI-2eg" customClass="MenuBarViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Amh-Yb-pkc"/>
-                        <viewControllerLayoutGuide type="bottom" id="Aey-Va-6Z9"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="6Zm-rj-cG5">
-                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Rbs-Q7-Owx" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1172" y="1016"/>
         </scene>
     </scenes>
 </document>

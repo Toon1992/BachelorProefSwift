@@ -19,6 +19,7 @@
 		8C6003921F4AE74B00DE97EF /* JsonToAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6003911F4AE74B00DE97EF /* JsonToAlbum.swift */; };
 		8C6003941F4B0D4400DE97EF /* Albums.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C6003931F4B0D4400DE97EF /* Albums.json */; };
 		8C6003961F4B0F8800DE97EF /* JsonHeaderViewCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6003951F4B0F8800DE97EF /* JsonHeaderViewCollectionReusableView.swift */; };
+		8C6003981F4B2FC900DE97EF /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6003971F4B2FC900DE97EF /* MenuBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		8C6003911F4AE74B00DE97EF /* JsonToAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonToAlbum.swift; sourceTree = "<group>"; };
 		8C6003931F4B0D4400DE97EF /* Albums.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Albums.json; sourceTree = "<group>"; };
 		8C6003951F4B0F8800DE97EF /* JsonHeaderViewCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonHeaderViewCollectionReusableView.swift; sourceTree = "<group>"; };
+		8C6003971F4B2FC900DE97EF /* MenuBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
 		9442C87125E7F61CEB962410 /* Pods_BachelorProefAppSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BachelorProefAppSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAC29E1B3950FE72B9DA46E /* Pods-BachelorProefAppSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BachelorProefAppSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BachelorProefAppSwift/Pods-BachelorProefAppSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +93,7 @@
 				8C60037E1F4AC96500DE97EF /* Assets.xcassets */,
 				8C6003801F4AC96500DE97EF /* Info.plist */,
 				8C6003951F4B0F8800DE97EF /* JsonHeaderViewCollectionReusableView.swift */,
+				8C6003971F4B2FC900DE97EF /* MenuBarController.swift */,
 			);
 			path = BachelorProefAppSwift;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C6003981F4B2FC900DE97EF /* MenuBarController.swift in Sources */,
 				8C6003901F4AE03700DE97EF /* Albums.swift in Sources */,
 				8C60037A1F4AC96500DE97EF /* ViewController.swift in Sources */,
 				8C6003961F4B0F8800DE97EF /* JsonHeaderViewCollectionReusableView.swift in Sources */,
