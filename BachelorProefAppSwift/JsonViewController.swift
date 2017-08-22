@@ -43,6 +43,17 @@ class JsonViewController:UICollectionViewController{
         return cell
     }
     
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let album = albumsArr[indexPath.row];
+        
+        print(album);
+        
+        if let controller = storyboard!.instantiateViewController(withIdentifier:"Product") as? ProductViewController{
+            controller.fillAlbum(album: album);
+            present(controller, animated: true, completion:nil)
+        }
+    }
+    
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         switch kind{
         case UICollectionElementKindSectionHeader:

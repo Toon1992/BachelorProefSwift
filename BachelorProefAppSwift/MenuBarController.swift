@@ -68,7 +68,7 @@ extension MenuBarController: UIPageViewControllerDataSource{
         return orderedViewControllers[previousIndex]
     }
     
-    func presentationCount(for pageViewController: UIPageViewController) -> Int {
+   /* func presentationCount(for pageViewController: UIPageViewController) -> Int {
         return orderedViewControllers.count
     }
     
@@ -79,5 +79,5 @@ extension MenuBarController: UIPageViewControllerDataSource{
         }
         
         return firstIndex
-    }
+    }*/
 }

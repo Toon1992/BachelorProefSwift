@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		69443CB2308A15C97F817434 /* Pods_BachelorProefAppSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9442C87125E7F61CEB962410 /* Pods_BachelorProefAppSwift.framework */; };
+		8C4D61F11F4C5E4100E53360 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4D61F01F4C5E4100E53360 /* ProductViewController.swift */; };
 		8C6003781F4AC96500DE97EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6003771F4AC96500DE97EF /* AppDelegate.swift */; };
 		8C60037A1F4AC96500DE97EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6003791F4AC96500DE97EF /* ViewController.swift */; };
 		8C60037D1F4AC96500DE97EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C60037B1F4AC96500DE97EF /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		25076309D08A5A53B096BA2D /* Pods-BachelorProefAppSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BachelorProefAppSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-BachelorProefAppSwift/Pods-BachelorProefAppSwift.release.xcconfig"; sourceTree = "<group>"; };
+		8C4D61F01F4C5E4100E53360 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		8C6003741F4AC96500DE97EF /* BachelorProefAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BachelorProefAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6003771F4AC96500DE97EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C6003791F4AC96500DE97EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				8C6003801F4AC96500DE97EF /* Info.plist */,
 				8C6003951F4B0F8800DE97EF /* JsonHeaderViewCollectionReusableView.swift */,
 				8C6003971F4B2FC900DE97EF /* MenuBarController.swift */,
+				8C4D61F01F4C5E4100E53360 /* ProductViewController.swift */,
 			);
 			path = BachelorProefAppSwift;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				8C6003961F4B0F8800DE97EF /* JsonHeaderViewCollectionReusableView.swift in Sources */,
 				8C6003921F4AE74B00DE97EF /* JsonToAlbum.swift in Sources */,
 				8C6003781F4AC96500DE97EF /* AppDelegate.swift in Sources */,
+				8C4D61F11F4C5E4100E53360 /* ProductViewController.swift in Sources */,
 				8C6003871F4AD20F00DE97EF /* JsonViewController.swift in Sources */,
 				8C6003891F4AD24B00DE97EF /* MenuBarViewController.swift in Sources */,
 			);
