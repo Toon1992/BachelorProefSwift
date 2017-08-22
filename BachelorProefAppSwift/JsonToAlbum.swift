@@ -11,11 +11,12 @@ import SwiftyJSON
 
 final class JsonToAlbum{
     private var jsonObj : JSON?
+    private var albumsArr : [Album]?
     private init(){}
     
     static let shared = JsonToAlbum()
     
-    public func getAlbums()->[Album]{
+    public func albumsFromJson(){
         if let path = Bundle.main.path(forResource : "Albums", ofType:"json"){
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .alwaysMapped)
@@ -23,7 +24,7 @@ final class JsonToAlbum{
                 if jsonObj == JSON.null{
                     print("Geenvalid json gevonden")
                 } else {
-                   return fillAlbums()
+                   fillAlbums()
                 }
             }catch let error{
                     print(error.localizedDescription)
@@ -32,11 +33,9 @@ final class JsonToAlbum{
                 print("invalid filename/path")
             }
         
-     return [Album]()
     }
 
-private func fillAlbums()->[Album]{
-    var albumsArr : [Album]?
+private func fillAlbums(){
      albumsArr = [Album]()
     for item in (jsonObj?["Albums"].arrayValue)!{
         let albumID = item["albumId"].intValue
@@ -48,8 +47,14 @@ private func fillAlbums()->[Album]{
         albumsArr?.append(Album(albumID: albumID, iD: iD, title: title, url: url, artist: artist))
     }
     
-    return albumsArr!;
 }
+    
+    public func getAlbums()->[Album]{
+        if albumsArr == nil{
+            albumsArr = [Album]()
+        }
+        return albumsArr!
+    }
 }
 
 

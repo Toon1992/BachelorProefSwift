@@ -21,6 +21,7 @@ class JsonViewController:UICollectionViewController{
     
     override func viewDidLoad(){
         super.viewDidLoad()
+        JsonToAlbum.shared.albumsFromJson()
         albumsArr = JsonToAlbum.shared.getAlbums()
     }
     
